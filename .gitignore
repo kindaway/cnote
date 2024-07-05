@@ -1,0 +1,4 @@
+*.out
+release/
+cmake-build-debug/
+.idea/
