@@ -9,8 +9,7 @@ public:
     float frequency;
     int octave;
     explicit Note(const std::string &repr);
-private:
-    static std::tuple<std::string, float> getOctave(std::string &note, int octave);
+    static std::tuple<std::string, float> getOctave(const std::string &note, int octave);
 };
 
 #endif //NOTES_H
